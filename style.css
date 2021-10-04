@@ -1,0 +1,15 @@
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  color: #910000 !important;
+}
+
+#navbarNav {
+  font-family: "Open sans", sans-serif;
+  color: #910000 !important;
+}
+
+.navbar {
+  margin: 8px;
+  background-color: transparent !important;
+  border: 1px solid #910000;
+}
