@@ -3,13 +3,22 @@
   color: #910000 !important;
 }
 
-#navbarNav {
+.navbar {
+  background-color: #d7b59f !important;
+}
+.nav-link {
   font-family: "Open sans", sans-serif;
   color: #910000 !important;
 }
 
-.navbar {
-  margin: 8px;
-  background-color: transparent !important;
-  border: 1px solid #910000;
+#splash {
+  background-size: cover;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("burgermenu.png") !important;
 }
