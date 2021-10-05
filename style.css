@@ -4,7 +4,7 @@
 }
 
 .navbar {
-  background-color: #d7b59f !important;
+  background-color: #deb499 !important;
 }
 .nav-link {
   font-family: "Open sans", sans-serif;
@@ -21,4 +21,40 @@
 
 .navbar-toggler-icon {
   background-image: url("burgermenu.png") !important;
+}
+
+h1 {
+  font-family: "poppins", sans-serif;
+  color: #910000;
+}
+
+h2 {
+  font-family: "poppins", sans-serif;
+  color: #910000;
+}
+
+h3 {
+  font-family: "poppins", sans-serif;
+  color: #910000;
+}
+
+.btn {
+  background-color: #deb499;
+  color: #910000;
+  border: none;
+  font-family: "poppins", sans-serif;
+}
+
+p {
+  font-family: "Open sans", sans-serif;
+  color: #910000;
+}
+main {
+  background-color: #f0eae2;
+}
+#first_section {
+  /* background-color: #f0eae2; */
+}
+#second_section {
+  background-color: #bac0cd;
 }
