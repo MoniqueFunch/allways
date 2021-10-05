@@ -38,6 +38,11 @@ h3 {
   color: #910000;
 }
 
+h4 {
+  font-family: "poppins", sans-serif;
+  color: #d6664a;
+}
+
 .btn {
   background-color: #deb499;
   color: #910000;
@@ -57,4 +62,25 @@ main {
 }
 #second_section {
   background-color: #bac0cd;
+}
+
+#fourth_section {
+  background-color: #d8ad7d;
+}
+
+.gif {
+  width: 40px;
+}
+
+.container-fluid {
+  padding: 0%;
+}
+
+#second_section,
+#fourth_section {
+  --bs-gutter-x: 0;
+}
+
+.logo {
+  padding-left: 10px;
 }
