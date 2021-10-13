@@ -6,15 +6,27 @@
 .navbar {
   background-color: #deb499 !important;
 }
+
+footer {
+  background-color: #910000 !important;
+  height: 10vh;
+  align-items: center;
+}
+
+/* footer h2 {
+  color: #d8ad7d;
+} */
+
 .nav-link {
   font-family: "Open sans", sans-serif;
   color: #910000 !important;
 }
 
-#splash {
-  background-size: cover;
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
 }
-
 .navbar-light .navbar-toggler {
   border: none;
 }
@@ -23,9 +35,14 @@
   background-image: url("burgermenu.png") !important;
 }
 
+#splash {
+  background-size: cover;
+}
+
 h1 {
   font-family: "poppins", sans-serif;
   color: #910000;
+  font-size: 3rem;
 }
 
 h2 {
@@ -48,6 +65,15 @@ h4 {
   color: #910000;
   border: none;
   font-family: "poppins", sans-serif;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.btn-warning:hover {
+  border: none;
+  color: #f0eae2;
+  background-color: #910000;
+  transform: scale(1.1);
 }
 
 p {
@@ -57,9 +83,7 @@ p {
 main {
   background-color: #f0eae2;
 }
-#first_section {
-  /* background-color: #f0eae2; */
-}
+
 #second_section {
   background-color: #bac0cd;
 }
@@ -69,7 +93,7 @@ main {
 }
 
 .gif {
-  width: 40px;
+  width: 140px;
 }
 
 .container-fluid {
@@ -83,4 +107,35 @@ main {
 
 .logo {
   padding-left: 10px;
+}
+
+.tekstboks {
+  max-width: 85vh;
+}
+
+.produkt:hover {
+  transform: scale(0.9);
+}
+
+.produkt {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+p.m-4.mission-tekst {
+  font-size: 1.05rem;
+}
+
+#splash .splashbillede * {
+  grid-area: 1 / 1 / -1 / -1;
+}
+
+.splashbillede {
+  place-items: center;
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 9rem;
+  }
 }
